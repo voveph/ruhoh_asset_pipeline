@@ -17,4 +17,4 @@ Visit [http://0.0.0.0:8000](http://0.0.0.0:8000). This time, you do not get the 
 
 ## Update: FIXED
 
-Per [Ruhoh issue #260](https://github.com/ruhoh/ruhoh.rb/issues/260), Sprockets requires the use of a vanilla CSS/JS to function properly. See last commit for the required changes.
+Per [Ruhoh issue #260](https://github.com/ruhoh/ruhoh.rb/issues/260), Sprockets requires the use of a vanilla CSS/JS to function properly. See the [last commit](https://github.com/voveph/ruhoh_asset_pipeline/commit/2b71bea38ecf10375de11fa121c17bf3f972aa8e) for the required changes.
