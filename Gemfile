@@ -1,19 +1,20 @@
 source "https://rubygems.org"
 gem 'psych', "~> 1.3"
-gem 'ruhoh', "~> 2"
+gem 'ruhoh', git: "https://github.com/ruhoh/ruhoh.rb.git"
 
 # To enable asset packaging and processing via sprockets:
 #
 #   1. Update your config.yml file:
-#  
+#
 #      asset_pipeline:
 #        enable: true
-#  
+#
 #   2. Uncomment the following two lines (sprockets + sass)
 #
 # Sass is for CSS: http://sass-lang.com/
 # For additional language support, make sure you load the appropriate gems.
 # See: https://github.com/sstephenson/sprockets#readme
 #
-# gem 'sprockets', '~> 2.8'
-# gem 'sass'
+gem 'sprockets', '~> 2.8'
+gem 'sass'
+gem "coffee-script"
