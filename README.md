@@ -14,3 +14,7 @@ Now hit `Ctrl+C` and run:
     python -m SimpleHTTPServer
 
 Visit [http://0.0.0.0:8000](http://0.0.0.0:8000). This time, you do not get the browser alert and the blue background, as `compiled/assets/stylesheets/screen.css` and `compiled/assets/javascripts/script.js` have not been generated during the compilation step.
+
+## Update: FIXED
+
+Per [Ruhoh issue #260](https://github.com/ruhoh/ruhoh.rb/issues/260), Sprockets requires the use of a vanilla CSS/JS to function properly. See last commit for the required changes.
